@@ -1,0 +1,7 @@
+Supabase:
+Usarname: MobilUygulamaFinal
+Şifre: mobilfinal451
+
+Firebase console:
+furkanproje451@gmail.com
+furkan-berk168465
