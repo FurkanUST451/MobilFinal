@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "152061152610",
+    "project_id": "mobiluygulamafinal-34b17",
+    "storage_bucket": "mobiluygulamafinal-34b17.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152061152610:android:269e4a8ec35c6f6bf6b03b",
+        "android_client_info": {
+          "package_name": "com.example.furkanberkusta_030722042"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcpgQZNa7guZjIDbXOPo8QdV0wvJvE-qE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

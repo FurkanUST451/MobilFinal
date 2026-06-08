@@ -1,0 +1,37 @@
+========================================
+  CampusConnect - Proje Bilgileri
+========================================
+
+Ogrenci: Furkan Berk Usta
+Ogrenci No: 030722042
+E-posta: 030722042@std.izu.edu.tr
+
+----------------------------------------
+SUPABASE
+----------------------------------------
+URL: https://gbyqfwlschuojpdlvyzj.supabase.co
+Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdieXFmd2xzY2h1b2pwZGx2eXpqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODA5Mjk0NzAsImV4cCI6MjA5NjUwNTQ3MH0.JnmhEuk7ERvpAOzKUnQiKusMYb8xPUWmjp3kYY9j5Xo
+Storage Bucket 1: grup-gorselleri (Public)
+Storage Bucket 2: profil-fotograflari (Public)
+
+----------------------------------------
+FIREBASE
+----------------------------------------
+Android Paket Adi: com.example.furkanberkusta_030722042
+google-services.json Konumu: android/app/google-services.json
+Firestore Koleksiyonu: calismaguruplar
+
+----------------------------------------
+SQLITE (Yerel Veritabani)
+----------------------------------------
+Veritabani Adi: kampus_connect.db
+Tablo: kullanici
+Sutunlar: id INTEGER PRIMARY KEY, ad TEXT, soyad TEXT, email TEXT, fotoUrl TEXT
+
+----------------------------------------
+SHARED PREFERENCES
+----------------------------------------
+Anahtar: karanlik_mod (bool)
+Aciklama: Karanlik mod tercihi (true = karanlik, false = acik)
+
+========================================
