@@ -107,6 +107,14 @@ class _CustomAppDrawerState extends State<CustomAppDrawer> {
               Navigator.pushReplacementNamed(context, '/');
             },
           ),
+          ListTile(
+            leading: const Icon(Icons.campaign_outlined),
+            title: const Text('Duyurular'),
+            onTap: () {
+              Navigator.pop(context);
+              Navigator.pushReplacementNamed(context, '/duyurular');
+            },
+          ),
         ],
       ),
     );
