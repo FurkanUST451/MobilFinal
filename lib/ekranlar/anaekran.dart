@@ -79,10 +79,13 @@ class AnaEkran extends StatelessWidget {
         onTap: (index) {
           switch (index) {
             case 1:
-              Navigator.pushNamed(context, '/grup-olustur');
+              Navigator.pushReplacementNamed(context, '/grup-olustur');
               break;
             case 2:
-              Navigator.pushNamed(context, '/profil');
+              Navigator.pushReplacementNamed(context, '/duyurular');
+              break;
+            case 3:
+              Navigator.pushReplacementNamed(context, '/profil');
               break;
           }
         },

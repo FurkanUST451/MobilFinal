@@ -4,6 +4,7 @@ import 'package:provider/provider.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 import 'ekranlar/anaekran.dart';
 import 'ekranlar/detayekrani.dart';
+import 'ekranlar/duyurularekrani.dart';
 import 'ekranlar/grupolusturekrani.dart';
 import 'ekranlar/profilekrani.dart';
 import 'servisler/temaprovider.dart';
@@ -55,6 +56,7 @@ class CampusConnectApp extends StatelessWidget {
             '/detay': (context) => const DetayEkrani(),
             '/grup-olustur': (context) => const GrupOlusturEkrani(),
             '/profil': (context) => const ProfilEkrani(),
+            '/duyurular': (context) => const DuyurularEkrani(),
           },
         );
       },

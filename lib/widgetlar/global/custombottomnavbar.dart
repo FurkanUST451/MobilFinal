@@ -16,6 +16,7 @@ class CustomBottomNavBar extends StatelessWidget {
       currentIndex: secilenIndex,
       onTap: onTap,
       selectedItemColor: Theme.of(context).colorScheme.primary,
+      type: BottomNavigationBarType.fixed,
       items: const [
         BottomNavigationBarItem(
           icon: Icon(Icons.group),
@@ -24,6 +25,10 @@ class CustomBottomNavBar extends StatelessWidget {
         BottomNavigationBarItem(
           icon: Icon(Icons.add_circle_outline),
           label: 'Oluştur',
+        ),
+        BottomNavigationBarItem(
+          icon: Icon(Icons.campaign_outlined),
+          label: 'Duyurular',
         ),
         BottomNavigationBarItem(
           icon: Icon(Icons.person),

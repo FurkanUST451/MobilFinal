@@ -199,7 +199,7 @@ class _ProfilEkraniState extends State<ProfilEkrani> {
               ),
             ),
       bottomNavigationBar: CustomBottomNavBar(
-        secilenIndex: 2,
+        secilenIndex: 3,
         onTap: _navTap,
       ),
     );
@@ -214,6 +214,9 @@ class _ProfilEkraniState extends State<ProfilEkrani> {
         Navigator.pushReplacementNamed(context, '/grup-olustur');
         break;
       case 2:
+        Navigator.pushReplacementNamed(context, '/duyurular');
+        break;
+      case 3:
         break;
     }
   }

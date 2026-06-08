@@ -232,6 +232,9 @@ class _GrupOlusturEkraniState extends State<GrupOlusturEkrani> {
       case 1:
         break;
       case 2:
+        Navigator.pushReplacementNamed(context, '/duyurular');
+        break;
+      case 3:
         Navigator.pushReplacementNamed(context, '/profil');
         break;
     }
